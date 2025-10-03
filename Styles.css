@@ -1,0 +1,85 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo principal da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2E1F47;  /* Cor escura roxa */
+    color: #D1C7E0;  /* Texto em tom claro para contraste */
+    padding: 20px;
+}
+
+/* Estilização do container central */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1D0E31; /* Fundo mais escuro */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Cabeçalho: foto e nome/área */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #A8A0D4; /* Borda em tom roxo */
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name-area h1 {
+    font-size: 2rem;
+    color: #A8A0D4;
+}
+
+.name-area h2 {
+    font-size: 1.2rem;
+    color: #B0A0D5;
+}
+
+/* Estilização das seções */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #B0A0D5;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Estilo dos ícones de habilidades */
+.skills img {
+    vertical-align: middle;
+}
+
+/* Estilização para o link do WhatsApp */
+.icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
